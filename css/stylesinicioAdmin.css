@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background: url('../img/james\ 3.jpg') left center no-repeat,
+                url('../img/james\ 3.jpg') right center no-repeat;
+    background-size: 50% 100%;    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.img-circle {
+    border-radius: 40%;
+    width: 80px;
+    height: 80px;
+  }
+  .logo img {
+    width: 100px;
+    ;
+}
+.section {
+    display: none;
+
+}
+.active-link {
+    font-weight: bold;
+}
+.footer {
+    align-self: flex-end;
+    width: 100%;    
+    bottom: 0;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    min-height: calc(100vh - 150px);    
+}
+#navbar {
+    align-self: flex-start;
+    
+}

@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: url('../img/james\ 3.jpg') left center no-repeat,
+                url('../img/james\ 3.jpg') right center no-repeat;
+    background-size: 50% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+.card {
+    max-width: 500px;
+    margin: auto;
+}
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 40%;
+    width: 80px;
+    height: 80px;
+  }
+  .logo img {
+    width: 100px;
+    ;
+}
