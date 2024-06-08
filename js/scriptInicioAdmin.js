@@ -321,3 +321,15 @@ function agregarProductosAFactura(tipo) {
     // Por ahora, simplemente mostraré una alerta con los servicios seleccionados.
     alert(`Servicios técnicos agregados a la factura: ${productosSeleccionados.join(', ')}`);
 }
+// ----------------------------------------------------
+function generarCodigoAutomatico() {
+    // Generar un código automático (ejemplo: un número aleatorio de 8 dígitos)
+    var codigoAutomatico = Math.floor(10000000 + Math.random() * 90000000);
+    document.getElementById('codigoProductoRegistro').value = codigoAutomatico;
+    document.getElementById('codigoProductoRegistro').readOnly = true; // Deshabilitar entrada manual
+}
+
+function habilitarEntradaManual() {
+    document.getElementById('codigoProductoRegistro').value = ''; // Limpiar el input
+    document.getElementById('codigoProductoRegistro').readOnly = false; // Habilitar entrada manual
+}
